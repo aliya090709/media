@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#header {
+    padding: 15px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 15px;
+    color: rgba(31, 46, 53, 0.8);
+}
+
+.header-nav select {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(31, 46, 53, 0.8);
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+.header div img {
+    padding: 0 10px;
+}
+
+.hero-block h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #1F2E35;
+    margin-bottom: 40px;
+}
+
+.hero-block h1 span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: orangered;
+}
+
+.hero-block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #30444E;
+}
+
+.hero-block button {
+    width: 161px;
+    height: 53px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    transition: .4s;
+    color: white;
+    border: none;
+}
+
+.hero-block button:hover {
+    transform: scale(1.1);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.title-block h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #1F2E35;
+    margin-bottom: 30px;
+}
+
+.title-block h1 span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: orangered;
+}
+
+.title-block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #30444E;
+    margin-top: 30px;
+}
+
+.title-block p span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: orangered;
+}
+
+.about-1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: #1F2E35;
+    margin-top: 60px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-block {
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.about-block img {
+    margin-top: 55px;
+}
+
+.about-block h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #EE4248;
+}
+
+.about-block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #30444E;
+}
+
+.about-block button {
+    width: 119px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: none;
+    transition: .4s;
+}
+.about-block button:hover  {
+    transform: scale(1.1);
+}
+.product {
+    display: flex;
+    width: 700px;
+    padding-top:90px;
+    justify-content: space-between;
+}
+.product div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.product-block  h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color:black;
+    padding-top: 19px;
+}
+.product-block  p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #263238;
+    padding-top: 10px;
+}
+.product-1 h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 30px;
+    color: #263238;
+}
+.product-1 a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #263238;
+    padding-top: 5px;
+}
+#footer {
+    padding: 15px 0;
+    background:orangered;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 30px;
+}
+.footer h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
